@@ -1,0 +1,11 @@
+{
+    "species": {
+        "Description": "The binomial species name from the NCBI Taxonomy"
+    },
+    "strain": {
+        "Description": "Identifier of the strain"
+    },
+    "sex": {
+        "Description": "Sex of participant"
+    }
+}
