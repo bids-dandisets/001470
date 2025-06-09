@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -33,8 +34,8 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Baker, Cody (2025) Neuropixels Recordings from Hippocampus of head-fixed
-  mice during odor presentation (BIDS) (Version draft) [Data set]. DANDI Archive.
+citation: Baker, Cody (2025) Neuropixels recordings from hippocampus of head-fixed
+  mice during odor presentation (Raw - BIDS) (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001470/draft
 contributor:
 - affiliation: []
@@ -46,16 +47,19 @@ contributor:
   schemaKey: Person
 dateCreated: '2025-06-04T15:48:10.038425+00:00'
 description: BEP32-compliant version of 001335 (https://dandiarchive.org/dandiset/001335/draft)
+ethicsApproval: []
 id: DANDI:001470/draft
 identifier: DANDI:001470
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001470/versions/draft/assets/
-name: Neuropixels Recordings from Hippocampus of head-fixed mice during odor presentation
-  (BIDS)
+name: Neuropixels recordings from hippocampus of head-fixed mice during odor presentation
+  (Raw - BIDS)
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
 url: https://dandiarchive.org/dandiset/001470/draft
 version: draft
+wasGeneratedBy: []
