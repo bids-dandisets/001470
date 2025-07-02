@@ -44,6 +44,7 @@ contributor:
   name: Baker, Cody
   roleName:
   - dcite:ContactPerson
+  - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2025-06-04T15:48:10.038425+00:00'
 description: BEP32-compliant version of 001335 (https://dandiarchive.org/dandiset/001335/draft)
