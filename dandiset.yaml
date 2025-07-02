@@ -12,19 +12,19 @@ assetsSummary:
   - name: electrophysiological approach
     schemaKey: ApproachType
   dataStandard:
-  - identifier: RRID:SCR_016124
-    name: Brain Imaging Data Structure (BIDS)
-    schemaKey: StandardsType
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
     schemaKey: StandardsType
   measurementTechnique:
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1723168
-  numberOfFiles: 8
+  numberOfBytes: 3668403
+  numberOfFiles: 17
   numberOfSubjects: 1
   schemaKey: AssetsSummary
   species:

@@ -1,0 +1,21 @@
+{
+    "trials": {
+        "Description": "The on/off timing of presented odors IDs. See experiment description for details on chemical compositions of each odor."
+    },
+    "epochs": {
+        "Description": "Each block in this experiment involves a specific repetition of a subset of odor IDs. See experiment description for details on odor combinations per block."
+    },
+    "nwb_table": {
+        "nwb_table": {
+            "Description": "The name of the NWB table from which this event was extracted.",
+            "Levels": {
+                "trials": "The 'trials' table in the NWB file.",
+                "epochs": "The 'epochs' table in the NWB file."
+            },
+            "HED": {
+                "trials": "Experimental-trial",
+                "epochs": "Time-block"
+            }
+        }
+    }
+}
