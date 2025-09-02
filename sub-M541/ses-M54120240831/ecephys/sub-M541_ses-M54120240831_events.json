@@ -3,7 +3,7 @@
         "Description": "The on/off timing of presented odors IDs."
     },
     "epochs": {
-        "Description": "Each block in this experiment involves a repetition of a subset of odor IDs, though the order of presentation may be randomized."
+        "Description": "Each block in this experiment involves a repetition of a subset of odor IDs, though the order of presentation may be randomized. 'UE' indicates the randomized 'unpredictable environment' while 'SE' indicates the deterministic 'structured environment'."
     },
     "nwb_table": {
         "nwb_table": {

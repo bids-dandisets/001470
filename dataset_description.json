@@ -1,11 +1,3 @@
 {
-    "Name": "Neuropixels Recordings from Hippocampus of head-fixed mice during odor presentation (BIDS)",
-    "BIDSVersion": "1.10",
-    "Description": "TODO",
-    "DatasetType": "raw",
-    "Authors": [
-        "Manish Mahopatra",
-        "Matthijs van der Meer"
-    ],
-    "License": "CC-BY-4.0"
+    "BIDSVersion": "1.10"
 }
