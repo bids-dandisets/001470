@@ -3,7 +3,13 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0005403
+  name: Ventral Striatum
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0003876
+  name: Hippocampus
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -35,9 +41,9 @@ assetsSummary:
   - ElectrodeGroup
   - Units
 citation: Mahopatra, Manish; Leaman, Kyoko; Janssen, Miriam A.; Baker, Cody; van der
-  Meer, Matthijs (2026) Neuropixels recordings from hippocampus of head-fixed mice
-  during odor presentation (Raw - BIDS) (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/001470/draft
+  Meer, Matthijs (2026) Viability and Generalizability of Canonical Oscillation-based
+  Theories in the Rodent Ventral Striatum and Hippocampus (Version draft) [Data set].
+  DANDI Archive. https://dandiarchive.org/dandiset/001470/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/049s0rh22
@@ -97,20 +103,32 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2025-06-04T15:48:10.038425+00:00'
-description: BEP32-compliant version of 001335 (https://dandiarchive.org/dandiset/001335/draft)
+description: Head-fixed wild type mice were presented with various odor sequences,
+  as neural activity was recorded from hippocampus using Neuropixels probes.
 ethicsApproval: []
 id: DANDI:001470/draft
 identifier: DANDI:001470
 keywords:
 - odor
 - ecephys
+- ventral striatum
+- hippocampus
+- rodent
+- oscillations
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001470/versions/draft/assets/
-name: Neuropixels recordings from hippocampus of head-fixed mice during odor presentation
-  (Raw - BIDS)
-relatedResource: []
+name: Viability and Generalizability of Canonical Oscillation-based Theories in the
+  Rodent Ventral Striatum and Hippocampus
+relatedResource:
+- name: Viability and Generalizability of Canonical Oscillation-based Theories in
+    the Rodent Ventral Striatum and Hippocampus
+  relation: dcite:IsDescribedBy
+  repository: Dartmouth College Ph.D Dissertations
+  resourceType: dcite:Dissertation
+  schemaKey: Resource
+  url: https://digitalcommons.dartmouth.edu/dissertations/436/
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
