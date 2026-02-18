@@ -22,9 +22,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 180023551497
-  numberOfFiles: 34
-  numberOfSubjects: 8
+  numberOfBytes: 180200003422
+  numberOfFiles: 45
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -34,23 +34,76 @@ assetsSummary:
   - ElectricalSeries
   - ElectrodeGroup
   - Units
-citation: Baker, Cody (2025) Neuropixels recordings from hippocampus of head-fixed
-  mice during odor presentation (Raw - BIDS) (Version draft) [Data set]. DANDI Archive.
+citation: Mahopatra, Manish; Leaman, Kyoko; Janssen, Miriam A.; Baker, Cody; van der
+  Meer, Matthijs (2026) Neuropixels recordings from hippocampus of head-fixed mice
+  during odor presentation (Raw - BIDS) (Version draft) [Data set]. DANDI Archive.
   https://dandiarchive.org/dandiset/001470/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/049s0rh22
+    name: Dartmouth College
+    schemaKey: Affiliation
+  email: manishofyore@gmail.com
+  includeInCitation: true
+  name: Mahopatra, Manish
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/049s0rh22
+    name: Dartmouth College
+    schemaKey: Affiliation
+  identifier: 0009-0007-8980-1179
+  includeInCitation: true
+  name: Leaman, Kyoko
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/049s0rh22
+    name: Dartmouth College
+    schemaKey: Affiliation
+  identifier: 0000-0002-8468-1864
+  includeInCitation: true
+  name: Janssen, Miriam A.
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/049s0rh22
+    name: Dartmouth College
+    schemaKey: Affiliation
   email: cody.c.baker.phd@gmail.com
+  identifier: 0000-0002-0829-4790
   includeInCitation: true
   name: Baker, Cody
   roleName:
   - dcite:ContactPerson
   - dcite:DataCurator
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/049s0rh22
+    name: Dartmouth College
+    schemaKey: Affiliation
+  email: Matthijs.van.der.Meer@dartmouth.edu
+  identifier: 0000-0002-2206-4473
+  includeInCitation: true
+  name: van der Meer, Matthijs
+  roleName:
+  - dcite:ContactPerson
+  - dcite:Conceptualization
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2025-06-04T15:48:10.038425+00:00'
 description: BEP32-compliant version of 001335 (https://dandiarchive.org/dandiset/001335/draft)
 ethicsApproval: []
 id: DANDI:001470/draft
 identifier: DANDI:001470
+keywords:
+- odor
+- ecephys
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -61,6 +114,8 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
+studyTarget:
+- Odor learning in rodents.
 url: https://dandiarchive.org/dandiset/001470/draft
 version: draft
 wasGeneratedBy: []
